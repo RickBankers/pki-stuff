@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name: Create a data container
+      docker_container:
+        name: my-test-container
+        image: python:3
+        command: /bin/sleep 600
