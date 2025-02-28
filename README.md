@@ -2,7 +2,8 @@
 PKI stuff
  and docker jenkins ansible
 
- This configuration includes:
+ ```
+This configuration includes:
 
     Resource Group: A container for all resources
     Virtual Network: With separate subnets for VMs and private endpoints
@@ -434,3 +435,4 @@ To verify the logs:
     | order by TimeGenerated desc
 
 Note: You might need to adjust the specific event channels or add more based on your monitoring requirements. The included channels cover the core AVD functionality, but additional channels might be needed for specific scenarios.
+```
